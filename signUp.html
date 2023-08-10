@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sign-Up</title>
+  </head>
+  <body>
+    <section class="container-fluid text-center">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="login col-9 col-md-3 rounded-5 p-5">
+          <h4 class="text-white mt-2">Sign-Up</h4>
+          <input type="text" placeholder="Name" class="form-control mb-2" 
+          id="signUp-user-name"/>
+          <input type="text" placeholder="E-mail" class="form-control mb-2" 
+          id="signUp-user-email"/>
+          <input
+            type="password"
+            placeholder="Password"
+            class="form-control my-3"
+            id="signUp-user-password"
+          />
+          <input type="submit" value="Submit" class="form-control mt-2 btn btn-success" id="signUp-btn" onclick="create()">
+          <span id="message" class="opacity-0 mt-2 d-block">lorem</span>
+          <div class="mt-4">
+            <h6 class="small">Already have an account?</h6>
+            <a href="index.html" class="small">Sign-In</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
